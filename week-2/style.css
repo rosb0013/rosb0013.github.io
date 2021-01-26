@@ -1,0 +1,122 @@
+
+/* --------------------------- */
+/* Custom styling for the site */
+/* --------------------------- */
+/* Setting page default font family and size */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Stlying the navigation bar */
+#nav.nav {
+
+    height: 10%;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    /* removing the border and setting the background colour */
+    border: none;
+    background-color: #FFFFFF;
+    /* aligining the text */
+    text-align: left;
+}
+
+/* Setting site maximium width, adjuusting margins and setting the background colour */
+#main.main {
+    max-width: 1200px;
+    margin-top: 0;
+    margin-left: 0;
+    /* margin-left: 20%; */
+    background-color: #FFFFFF;
+}
+
+body .nav .nav-link {
+    margin: 1rem;
+  /* setting the font size and style for the navigation links */
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: lighter;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+/*  Adjusting the Home seciton padding to provide space around the content */
+#home.home {
+    padding: 40px;
+    background-color: #000000;
+}
+
+/* Changing the Home section font colour and size, as well as font family. */
+/* Left aligning the contents */
+main section.home {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    /* font-weight: lighter; */
+    text-align: left;
+}
+
+/* Chaning the Home and About Me headings (H1 and H2) sizes and alignments */
+/* Left aligning the contents for uniformity */
+main .page-title,
+section .section-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+/* Setting About Me section padding, background and font colour for better contrast */
+#about.about {
+    display: inline-block;
+    font-size: 1.25rem;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    background-color: #b1dbe6;
+    color: #03334e;
+}
+
+
+/*  Adjustint image size to scale with site size changes */
+section .about-image {
+    width: 13%;
+}
+
+
+#contact.contact {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 0px;
+}
+
+/* Changing the contact form padding and background colour */
+#contact .contact-form {
+    padding-left: 0px;
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 500px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+/* reducing the size of the contact form labels */
+label.contact-form-label {
+    font-size: 1.00rem;
+
+}
+
+/* changing the padding size of the contact form input boxes */
+.contact-form-input {
+    padding: 10px;
+    width: 100%;
+}
+
+/* adjusting the footer to appear on 1 line */
+footer{
+  display: inline-flex;
+  padding-left: 20px;
+}
