@@ -33,7 +33,7 @@ body {
 
 body .nav .nav-link {
     margin: 1rem;
-  /* setting the font size and style for the navigation links */
+    /* setting the font size and style for the navigation links */
     font-size: 1.25rem;
     text-transform: uppercase;
     color: #000000;
@@ -71,35 +71,27 @@ section .section-title {
 #about.about {
     display: inline-block;
     font-size: 1.25rem;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-right: 80px;
+    padding: 20px 80px 20px 40px;
     background-color: #b1dbe6;
     color: #03334e;
 }
-
 
 /*  Adjustint image size to scale with site size changes */
 section .about-image {
     width: 13%;
 }
 
-
 #contact.contact {
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 80px;
-    padding-bottom: 0px;
+    padding: 20px 80px 0 20px;
 }
 
 /* Changing the contact form padding and background colour */
 #contact .contact-form {
-    padding-left: 0px;
+    padding-left: 0;
     background-color: #FFFFFF;
     width: 100%;
     max-width: 500px;
-    margin-left: 0px;
+    margin-left: 0;
     margin-bottom: 10px;
 }
 
@@ -115,8 +107,9 @@ label.contact-form-label {
     width: 100%;
 }
 
-/* adjusting the footer to appear on 1 line */
-footer{
-  display: inline-flex;
-  padding-left: 20px;
+/* adjusting the footer to line up and padding to align left side */
+/*  with other site contents */
+footer {
+    display: inline-flex;
+    padding-left: 20px;
 }
