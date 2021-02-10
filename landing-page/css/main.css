@@ -1,33 +1,26 @@
-/*  custom style for font */
+/*  Setting the font Montserrat as the default for the page */
 html {
     font-family: 'Montserrat', sans-serif;
-    /*  */
     box-sizing: border-box;
-    margin: autos;
 }
-
 /* Setting the font sizing for the H1 header  */
 h1 {
     font-size: 44px;
+    font-weight: bold;
 }
-
 /* Making the logo image in the header responsive to changes in view sizing */
 .logo {
     max-width: 10%;
 }
-
 /* Setting the maximum width for desktop mode as well as centering the content */
 main {
-    max-width: 1200px;
+    max-width: 1300px;
     margin-left: 40px;
 }
-
-.apply-list{
+.apply-list {
     /* removing the bullets from the list items */
     list-style: none;
-
 }
-
 /* The left paragraph text and the apply form have been given the classes of card-a and card-b so I can target them specifically for styling purposes */
 .cards {
     /* Putting the background image into this section of the page */
@@ -38,20 +31,17 @@ main {
     /* Creating a grid container to put the two cards in - left and right */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: (1m 1fr);
+    /* grid-template-rows: (1fr, 1fr); */
+    /* column-gap: 40%; */
+    border-radius: 5px;
     grid-template-areas: "card-a" "card-b";
 }
-
-.card-b{
+/* Setting the flow for the Apply Now form  */
+.card-b {
     display: flex;
-    flex-direction: column;
-    margin-left: 25%;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
-
-
-
-
 /* Using flexbox for the social media icons to display them in a row */
 .social-media {
     display: flex;
@@ -60,9 +50,7 @@ main {
     list-style: none;
 }
 /* --------------------------------------------------------------------- */
-
 /* STYLING BUTTONS */
-
 /* Applying sizing and colouring to the  Calculate Button */
 /* to the footer form to recreate the look/feel */
 .btn-calculate {
@@ -72,9 +60,7 @@ main {
     padding: 4px 22px;
     border: none;
     border-radius: 4px;
-
 }
-
 /* Applying sizing and colouring to the Drive With Us button */
 /* to the footer form to recreate the look/feel */
 .btn-drive {
@@ -84,28 +70,21 @@ main {
     padding: 7px 25%;
     border: none;
     border-radius: 4px;
-    
-    
-
-
 }
 /* ---------------------------------------------------------------------- */
-
 /*  STYLING THE APPLY FORM and LIST ITEMS - adjusting colours, padding and elements to match the mock-up. Rounding the edging of all inputs*/
-.apply-form{
+.apply-form {
     background-color: white;
-    padding-top: 0px;
+    padding-top: 0;
     width: 60%;
     border-radius: 10px;
     border: none;
     box-shadow: 10px 10px 8px #888888;
-
 }
-
-.apply-list{
-    padding-left: 0px;
+.apply-list {
+    padding-left: 0;
 }
-#firstname{
+#firstname {
     background-color: #F4F4F5;
     border: none;
     padding: 5px 20%;
@@ -114,7 +93,7 @@ main {
     border-radius: 4px;
     color: #9B9B9B;
 }
-#lastname{
+#lastname {
     background-color: #F4F4F5;
     border: none;
     padding: 5px 20%;
@@ -123,7 +102,7 @@ main {
     border-radius: 4px;
     color: #9B9B9B;
 }
-#email{
+#email {
     background-color: #F4F4F5;
     border: none;
     padding: 5px 20%;
@@ -132,7 +111,7 @@ main {
     border-radius: 4px;
     color: #9B9B9B;
 }
-#phonenumber{
+#phonenumber {
     background-color: #F4F4F5;
     border: none;
     padding: 5px 20%;
@@ -141,24 +120,21 @@ main {
     border-radius: 4px;
     color: #9B9B9B;
 }
-#agree{
+#agree {
     border-radius: 50%;
 }
 /*  Adjusting font sizes and targeting specific paragraph text for changes */
-#terms{
-    font-size: .70em;
+#terms {
+    font-size: 0.70em;
 }
-.already{
-    font-size: .55em;
+.already {
+    font-size: 0.60em;
     display: flex;
 }
-.status{
-    /* font-size: .65em; */
+.status {
+    font-size: 0.60em;
     color: #FF8480;
 }
-
-
-
 /*  -------------------------------------------------------------------------- */
 /* Setting the footer as a flexbox to align the social media icons along the same x-axis */
 footer {
@@ -169,24 +145,14 @@ footer {
     /* that will allow the footer background colour to stretch fully left */
     margin: 0 -1rem;
 }
-.container{
+.container {
     /* margin: 0 20%; */
     margin-right: 10%;
     margin-left: 50px;
-    
 }
 /* ----------------------------------------------------------------------------- */
 /* STYLING the calculate form input boxes - rounding the corners and adjusting font colours */
-#hours{
-    background-color: white;
-    border: none;
-    padding: 5px;
-    margin-bottom: 6px;
-    text-align: left;
-    border-radius: 4px;
-    color: #707070; 
-}
-#city{
+#hours {
     background-color: white;
     border: none;
     padding: 5px;
@@ -195,23 +161,27 @@ footer {
     border-radius: 4px;
     color: #707070;
 }
-
+#city {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    margin-bottom: 6px;
+    text-align: left;
+    border-radius: 4px;
+    color: #707070;
+}
 /* ---------------------------------------------------------------------- */
 /* Trying to set media queries for responsive layout */
 /*  at different screen sizes */
-
 
 /* styling to a maximum width of 650px */
 @media screen and (max-width: 605px) {
     .cards {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(1fr, 1fr);
-        grid-template-areas: 
-        "card-a" 
-        "card-b"
-        ;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: "card-a" "card-b";
     }
-    .card-b{
+    .card-b {
         margin-left: 10%;
     }
 }
@@ -219,16 +189,10 @@ footer {
 @media screen and (max-width: 300px) {
     .cards {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(1fr, 1fr);
-        grid-template-areas: 
-        "card-a" 
-        "card-b"
-        ;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: "card-a" "card-b";
     }
-    .card-b{
+    .card-b {
         margin-left: 10%;
     }
-
 }
-
-
