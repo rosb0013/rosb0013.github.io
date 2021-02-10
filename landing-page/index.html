@@ -4,20 +4,97 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dash</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-            rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
-    </head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserratdisplay=swap">
+
+    </head>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <body>
-        <main>
-            <header class="header"></header>
-            <section class="section"></section>
-            <footer class="footer">
-                <h3>See how much you can earn wtih Dash</h3>
-                <p>how many hours do you want to drive with us each week?</p>
-                <form action="hours.html" method="get">
+
+        <main class="main">
+            <!-- ------------------------- HEADER  -->
+            <header class="banner">
+                <img class="logo" src="images/logo/logo.png" alt="Dash logo">
+            </header>
+
+        
+        
+        
+        
+        
+        
+        
+            <!-- ------------------------- SECTIONS -->
+
+            <section class="cards">
+                <!-- Card A details -->
+                <div class="card-a">
+                    <h1>Want to be your own boss?</h1>
+                    <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
+                </div>
+
+
+
+                <!-- Card B details -->
+                <!-- Using the fieldset element to create a box around the Apply Now fields -->
+                <form class="card-b" action="apply.html" method="post">
+                    <fieldset class="apply-form">
+                        <h4>Apply Now</h4>
+                        <p>Enter your info below to get started.</p>
+                        <!-- putting all of the input fields into a list so they appear top to bottom -->
+                       <ul class="apply-list"> 
+
+                        <li><input id="firstname" type="text" name="firstname" placeholder="First name"></li>
+                        <li><input id="lastname" type="text" name="lastname" placeholder="Last name"></li>
+                        <li><input id="email" type="email" name="email" placeholder="Email address"></li>
+                        <li><input id="phonenumber" type="tel" name="phonenumber" placeholder="Phone number"></li>
+                        <li><input type="checkbox" id="agree" name="agree">
+                        <label id="terms" for="agree">I agree to dash terms</label></li>
+                        <li><input type="button" class="btn-drive" value="DRIVE WITH US"></li>
+                        <li><label class="already">Already applied?<p class="status">Check your application status here</p></label></li>
+                    
+                    
+                    </ul>
+                    </fieldset>
+
+                </form>
+
+            </section>
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- -------------------------- FOOTER  -->
+
+        <footer class="footer">
+            <div class="container">
+            <h5>See how much you can earn with Dash</h5>
+            <p>how many hours do you want to drive with us each week?</p>
+            <form class="footer-form" action="hours.html" method="get">
+                <!-- <div class="input-group"> -->
                     <label for="hours"></label>
                     <input
                         id="hours"
@@ -27,17 +104,26 @@
                         required="required">
                     <label for="city"></label>
                     <input id="city" type="text" name="city" placeholder="City" required="required">
-                    <input id="btn-calculate" type="submit">
-
-
-                    
-
-                </form>
-
-            </footer>
-        </main>
+                <!-- </div> -->
+                <input type="button" class="btn-calculate" value="CALCULATE">
+            </form>
+        </div>
+            <!-- Social Media icons -->
+            <ul class="social-media">
+                <li>
+                    <a href="#"><img src="images/icons/instagram.svg"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/icons/twitter.svg"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/icons/facebook.svg"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/icons/linkedin.svg"/></a>
+                </li>
+            </ul>
+        </footer>
 
     </body>
 </html>
-
-
