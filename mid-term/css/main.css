@@ -1,0 +1,230 @@
+/* --------------------------------
+          Custom Styles
+------------------------------------ */
+
+/* Setting the font family to match the mock-up */
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: #3c3b3a;
+}
+
+/* Removing decoration from lists */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Setting the line spacing for all body text */
+body {
+    line-height: 1.5;
+    /* display: flex; */
+}
+
+/* Setting navigation font attributes */
+a,
+a:link,
+a:visited {
+    font-size: 16px;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+/* Styling the Headers */
+h1 {
+    font-weight: bolder;
+    font-size: 44px;
+    line-height: 1.2;
+}
+h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px;
+}
+h3 {
+    font-weight: lighter;
+    /* font-style: italic; */
+    font-size: 24px;
+    color: #26A682;
+    margin-bottom: 0;
+}
+h4 {
+    color: #f2f2f2;
+}
+
+/* Setting the container to the mobile mockup max */
+/* Will use Media Query for larger sizes to adjust */
+.container {
+    max-width: 1920px;
+    margin: auto;
+    /* max-width: 375px; */
+    /* margin: 0px 36px 0px 36px; */
+}
+
+/* Styling the navigation area and background color */
+.masthead {
+    height: 225px;
+    /* padding: 40px 0px 20px 0px; */
+    padding-top: 1px;
+    background-color: #3c3b3a;
+    /* align-content: center; */
+    text-align: center;
+}
+/* Styling the navigation to remove text decoration */
+.nav-list li {
+    margin: 0 36px;
+    text-decoration: none;
+    /* list-style: none; */
+    padding-top: 8px;
+}
+
+/* Setting the margins around all the main content excluding the header/nav and footer */
+main {
+    /* max-width: 1920px; */
+    margin: 0 36px;
+}
+
+/* make a grid for the activity icons */
+.activity_icons {
+    display: grid;
+    /* background-color: red; */
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+}
+
+.activity {
+    justify-self: center;
+}
+
+/* Styling the Get Started Button to match the mockup */
+.btn-getstarted {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 34px;
+    box-shadow: 2px 2px 4px #3C3B3A;
+    padding: 11px 25%;
+    border-radius: 40px;
+    border: 0;
+    background: #26A682;
+    margin-top: 20px;
+    margin-bottom: 20PX;
+}
+
+/* Centering the BOOKS graphic */
+.img-books {
+    align-content: center;
+}
+/* Trying to display the SCHOOL picture to stretch the whole width */
+.img-school {
+    margin-left: -40px;
+    margin-right: 40px;
+    width: 375px;
+}
+
+/* Styling the LEARN MORE buttons */
+.btn-aclearnmore {
+    display: flex;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 24px;
+    box-shadow: 2px 2px 4px #3C3B3A;
+    padding: 5px 5%;
+    border-radius: 40px;
+    border: 0;
+    background: #26A682;
+    margin-top: 20px;
+    margin-bottom: 20PX;
+    justify-content: right;
+}
+
+/* Styling the SA QUOTE section - dark background and fonts */
+/* and centering the content */
+.saquote {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3c3b3a;
+    justify-content: center;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+.sa {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* SECTION ENTERTAINMENT */
+.cheers {
+    margin-left: -30px;
+    margin-top: 30px;
+    /* width: 100%; */
+}
+
+/* Section FOOTER */
+/* Setting background colour and alignment */
+.site-footer {
+    background-color: #3c3b3a;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    /* justify-content: center; */
+}
+.follow {
+    text-align: center;
+    padding-top: 20px;
+
+}
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+}
+/* .social-icons{
+    grid-column-start: 1;
+    grid-column-end: 5;
+} */
+/* BACK TO TOP button */
+.top {
+    display: block;
+    /* justify-self: right; */
+}
+
+/* ADDING MEDIA QUERIES FOR DIFFERENT SCREEN SIZES */
+/* ipad - Medium devices 376px to 767px */
+@media screen and (min-width: 376px) {
+    body {
+        align-content: center;
+        /* background-color: blue; */
+    }
+
+    /* Adjust the activity icons to appear in a line */
+    /* make a grid for the activity icons */
+    .activity_icons {
+        display: grid;
+        /* background-color: red; */
+        grid-template-columns: auto auto auto auto;
+        
+    }
+
+    .activity {
+        justify-self: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* and (max-width:480px)  */
