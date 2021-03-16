@@ -1,0 +1,88 @@
+/* --------------------------------
+          Custom Styles
+------------------------------------ */
+
+/* Setting the font family to match the mock-up */
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: #3c3b3a;
+}
+
+/* Removing decoration from lists */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Setting the line spacing for all body text */
+body {
+    line-height: 1.5;
+    /* display: flex; */
+}
+
+/* Setting navigation font attributes */
+a,
+a:link,
+a:visited {
+    font-size: 16px;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+/* Styling the Headers */
+h1 {
+    font-weight: bolder;
+    font-size: 44px;
+    line-height: 1.2;
+}
+h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px;
+}
+h3 {
+    font-weight: lighter;
+    /* font-style: italic; */
+    font-size: 24px;
+    color: #26A682;
+    margin-bottom: 0;
+}
+h4 {
+    color: #f2f2f2;
+}
+
+/* Setting the container to the mobile mockup max */
+/* Will use Media Query for larger sizes to adjust */
+.container {
+    max-width: 1920px;
+    margin: auto;
+    /* max-width: 375px; */
+    /* margin: 0px 36px 0px 36px; */
+}
+
+/* Styling the navigation area and background color */
+.masthead {
+    height: 225px;
+    /* padding: 40px 0px 20px 0px; */
+    padding-top: 1px;
+    background-color: #3c3b3a;
+    /* align-content: center; */
+    text-align: center;
+}
+/* Styling the navigation to remove text decoration */
+.nav-list li {
+    margin: 0 36px;
+    text-decoration: none;
+    /* list-style: none; */
+    padding-top: 8px;
+}
