@@ -73,7 +73,7 @@ main {
 }
 /* ---------------------------------------------------------------------- */
 /*  STYLING THE APPLY FORM and LIST ITEMS - adjusting colours, padding and elements to match the mock-up. Rounding the edging of all inputs*/
-.apply-form {
+.contact-us {
     background-color: white;
     padding-top: 0;
     width: 60%;

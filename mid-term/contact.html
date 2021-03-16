@@ -9,7 +9,7 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,600&display=swap"
             rel="stylesheet">
-        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/contact.css">
     </head>
 
     <body>
@@ -47,26 +47,40 @@
                 </section>
                 <!-- Putting the contact form within a div for greater control over styling in
                 CSS -->
-                <div class="contact-form">
-                    <form class="card" action="#" method="post">
-                        <fieldset class="apply-form">
-                            <h3>Contact Us</h3>
-                            <!-- putting all of the input fields into a list so they appear top to bottom
-                            -->
-                            <ul class="apply-list">
-                                <li><input id="fullname" type="text" name="fullname" placeholder="Full Name"></li>
-                                <li><input
-                                    id="student-number"
-                                    type="number"
-                                    name="studentnumner"
-                                    placeholder="Student Number"></li>
-                                <li><input id="email" type="email" name="email" placeholder="Email address"></li>
-                            </ul>
-                            <textarea name="message" form="message">Message</textarea>
-                            <input type="button" class="btn-submit" value="SUBMIT">
-                        </fieldset>
-                    </form>
-                </div>
+<section>
+                <form class="contact-us" action="#" method="post">
+                    <fieldset class="submit-form">
+                        <h3>Contact Us</h3>
+                        <!-- putting all of the input fields into a list so they appear top to bottom
+                        -->
+                        <ul class="apply-list">
+                            <li>
+                                <label for="fullname">Full Name</label>
+                            </li>
+                            <li><input id="fullname" type="text" name="fullname" placeholder="Full Name"></li>
+                            <li>
+                                <label for="studentnumber">Student Number</label>
+                            </li>
+                            <li><input
+                                id="student-number"
+                                type="number"
+                                name="studentnumner"
+                                placeholder="Student Number"></li>
+                            <li>
+                                <label for="email">Email</label>
+                            </li>
+                            <li><input id="email" type="email" name="email" placeholder="Email address"></li>
+                            <li>
+                                <label for="message">Message</label>
+                            </li>
+                            <textarea id="message" name="message" form="message">Message</textarea>
+
+                        </ul>
+                        <input type="button" class="btn-submit" value="SUBMIT">
+
+                    </fieldset>
+                </form>
+            </section>
                 <section class="location">
                     <h1>Our Location.</h1>
                     <h5>Algonquin College Students' Association</h5>
@@ -78,6 +92,17 @@
                 </section>
 
             </main>
+            <!-- Adding the google map -->
+            <section class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5608.078296782938!2d-75.7613001651123!3d45.34802199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20%E2%80%93%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1615856921579!5m2!1sen!2sca"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"></iframe>
+
+            </section>
 
             <!-- Adding the FOOTER -->
             <footer class="site-footer">

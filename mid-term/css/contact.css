@@ -64,7 +64,7 @@ h4 {
 /* Setting the container to the mobile mockup max */
 /* Will use Media Query for larger sizes to adjust */
 .container {
-    max-width: 1920px;
+    /* max-width: 376px; */
     margin: auto;
     /* max-width: 375px; */
     /* margin: 0px 36px 0px 36px; */
@@ -85,4 +85,79 @@ h4 {
     text-decoration: none;
     /* list-style: none; */
     padding-top: 8px;
+}
+
+/* ---------------------------------------------------------------------- */
+/*  STYLING THE APPLY FORM and LIST ITEMS - adjusting colours, padding and elements to match the mock-up. */
+.submit-form {
+    background-color: #26A682;
+    padding-top: 0;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+#fullnamne {
+    background-color: #F4F4F5;
+    border: none;
+    padding: 10px 20%;
+    margin-bottom: 6px;
+    text-align: left;
+    border-radius: 20px;
+    color: #9B9B9B;
+}
+#student-number {
+    background-color: #F4F4F5;
+    border: none;
+    padding: 5px 20%;
+    margin-bottom: 6px;
+    text-align: left;
+    border-radius: 4px;
+    color: #9B9B9B;
+}
+#email {
+    background-color: #F4F4F5;
+    border: none;
+    padding: 5px 20%;
+    margin-bottom: 6px;
+    text-align: left;
+    border-radius: 4px;
+    color: #9B9B9B;
+}
+#message {
+    background-color: #F4F4F5;
+    border: none;
+    padding: 5px 20%;
+    margin-bottom: 6px;
+    text-align: left;
+    border-radius: 4px;
+    color: #9B9B9B;
+}
+
+/* Section FOOTER */
+/* Setting background colour and alignment */
+.site-footer {
+    background-color: #3c3b3a;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    /* justify-content: center; */
+}
+.follow {
+    text-align: center;
+    padding-top: 20px;
+
+}
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+}
+
+/* BACK TO TOP button */
+.top {
+    display: block;
+    /* justify-self: right; */
 }
