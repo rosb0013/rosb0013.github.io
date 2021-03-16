@@ -87,15 +87,15 @@ h4 {
     padding-top: 8px;
 }
 /* Setting the ABOUT section background colour */
-.about{
+.about {
     background-color: #F2F2F2;
 }
 /* Setting the COMPETITIVE FRIENDS section background colour */
-.competitive{
+.competitive {
     background-color: #F2F2F2;
 }
 /* Setting the SUBSCRIBE section background colour, and button styling */
-.subscribe{
+.subscribe {
     background-color: #3c3b3a;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -119,12 +119,11 @@ h4 {
 }
 
 /* Styling the association logos section to center items */
-.special{
+.sepcial {
     display: flex;
     flex-direction: column;
     align-content: center;
 }
-
 
 /* Section FOOTER */
 /* Setting background colour and alignment */

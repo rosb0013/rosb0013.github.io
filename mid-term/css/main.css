@@ -111,7 +111,7 @@ main {
     color: #FFFFFF;
     font-size: 34px;
     box-shadow: 2px 2px 4px #3C3B3A;
-    padding: 11px 25%;
+    padding: 11px 50px;
     border-radius: 40px;
     border: 0;
     background: #26A682;
@@ -234,7 +234,7 @@ main {
         /* background-color: red; */
     }
     .container {
-        max-width: 768px;
+        max-width: ;
     }
     .img-books {
         width: 100%;
