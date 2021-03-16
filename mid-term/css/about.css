@@ -86,10 +86,33 @@ h4 {
     /* list-style: none; */
     padding-top: 8px;
 }
+
+
 /* Setting the ABOUT section background colour */
 .about {
     background-color: #F2F2F2;
 }
+
+  /* ------------------------------ ANIMATION  ------------------------------ */
+/* Animating the ARC logo */
+.nav-list .arc-logo {
+    animation: hinge-in 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
+
+@keyframes hinge-in {
+    0% {
+        transform: rotateX(-100deg);
+        transform-origin: top;
+        opacity: 0;
+    }
+    100% {
+        transform: rotateX(0deg);
+        transform-origin: top;
+        opacity: 1;
+    }
+}
+
+
 /* Setting the COMPETITIVE FRIENDS section background colour */
 .competitive {
     background-color: #F2F2F2;
