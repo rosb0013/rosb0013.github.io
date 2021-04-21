@@ -3,6 +3,7 @@ My Portfolio site has been created utilizing Bootstrap as much as possible. The 
 Challenges
 Determining ideal content amount to not overwhelm mobile usage.
 Emebding video: Discovered how to embed YouTube content from my personal YouTube portfolio to bypass the need for direct content upload to a folder on my site, using space that can remain free. 
+Understanding the code for photo carousel and what each class item does, how to manipulate image change timing.
 
 Working with Bootstrap Embeds for YouTube content
 
@@ -30,6 +31,8 @@ Overcoming Challenges
 Challenges such as this were quickly overcome as Bootstrap makes it easy to adjust rows/columns, locations, layout, etc. 
 The Bootstrap site contains EXTENSIVE examples for EVERY component and class(es) access.
 Determining ideal grid layout(s) was achieved through trial and error. 
+Researching carousels outside of the BootStrap site help, helped me to overcome isues. 
+
 
 -----------------------------------------------------------------------------------
 NOTES: 
