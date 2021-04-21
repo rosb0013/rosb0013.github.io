@@ -26,6 +26,7 @@ When HTML validating, received the following error, however when checking BOOTST
 
     N BAR -->↩<nav class="navbar navbar-expand-lg navbar-light bg-light">↩    <
 
+Took me a long time to figure out where the center-text class goes for the nav according text. 
 
 Overcoming Challenges
 Challenges such as this were quickly overcome as Bootstrap makes it easy to adjust rows/columns, locations, layout, etc. 
