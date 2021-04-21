@@ -10,6 +10,19 @@ Working with Bootstrap Embeds for YouTube content
     <iframe class="embed-responsive-item" src="..." allowfullscreen></iframe>
     </div>
 
+When HTML validating, received the following error, however when checking BOOTSTRAP nav help, I cannot find any error.
+    Error: Stray start tag nav.
+
+    From line 41, column 1; to line 41, column 59
+
+    N BAR -->↩<nav class="navbar navbar-expand-lg navbar-light bg-light">↩    <
+
+    Fatal Error: Cannot recover after last error. Any further errors will be ignored.
+
+    From line 41, column 1; to line 41, column 59
+
+    N BAR -->↩<nav class="navbar navbar-expand-lg navbar-light bg-light">↩    <
+
 
 Overcoming Challenges
 Challenges such as this were quickly overcome as Bootstrap makes it easy to adjust rows/columns, locations, layout, etc. 
