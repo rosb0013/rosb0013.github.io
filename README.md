@@ -39,4 +39,5 @@ NOTES:
 - ALL images, videos and graphics are original content created by me.
 - Fonts provided by Google Fonts
 - Components provided via Bootstrap
+- BootStrap is a GODSEND! It has changed my entire view on responsive web development!
 -----------------------------------------------------------------------------------
