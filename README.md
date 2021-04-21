@@ -10,6 +10,8 @@ Working with Bootstrap Embeds for YouTube content
     <iframe class="embed-responsive-item" src="..." allowfullscreen></iframe>
     </div>
 
+    Struggled with sizing for embeded YouTube content (still unable to rectify this to my satisfaction)
+
 When HTML validating, received the following error, however when checking BOOTSTRAP nav help, I cannot find any error.
     Error: Stray start tag nav.
 
