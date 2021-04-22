@@ -18,24 +18,24 @@ Working with Bootstrap Embeds for YouTube content
 -----
 When HTML validating, received the following error, however when checking BOOTSTRAP nav help.
     Error: Stray start tag nav.
-    From line 41, column 1; to line 41, column 59
+
     N BAR -->↩<nav class="navbar navbar-expand-lg navbar-light bg-light">↩    <
     Fatal Error: Cannot recover after last error. Any further errors will be ignored.
-    From line 41, column 1; to line 41, column 59
+
     N BAR -->↩<nav class="navbar navbar-expand-lg navbar-light bg-light">↩    <
 
-Took me a very long time to realize my closing body tag was in the wrong spot. 
+Took me a VERY long time to realize my  </body> tag was in the wrong spot. 
 
 -----
 Took me a long time to figure out where to use the center-text class goesnav according text. 
 
 -----
 Overcoming Challenges
-Layout challenges were overcome as Bootstrap makes it so much easier to develop and control adjust rows/columns, locations, layout, etc. 
+Layout challenges were overcome as Bootstrap makes it so much easier to quickly develop and control layout, add components, etc. 
 The Bootstrap site contains EXTENSIVE examples for EVERY component and class(es) access.
 Google searching any validation errors I was stuck on helped put me on the right path for solutions.
 Determining ideal grid layout(s) was achieved through trial and error. 
-Researching carousels outside of the BootStrap site help, helped me to overcome isues. 
+Researching carousels outside of the BootStrap site Help, helped me to overcome isues. 
 
 
 -----------------------------------------------------------------------------------
